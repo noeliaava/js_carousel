@@ -1,0 +1,87 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 25px 0 0 40px;
+}
+
+.container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.card-container {
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    color: black;
+    border: 8px solid transparent;
+    border-image: linear-gradient(90deg, rgba(233,109,163,1) 0%, rgba(76,143,222,1) 100%);
+    border-image-slice: 1;
+}
+
+.card-container h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 1.2px;
+}
+
+.card-container h5 {
+    text-align: center;
+    visibility: hidden;
+    margin: 0;
+}
+
+.card {
+    border-radius: 30px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+}
+
+.card img {
+    width: 80%;
+    margin: auto;
+    max-height: 85%;
+}
+
+.container-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-buttons button {
+    padding: 15px 30px;
+    /* border: 1px solid rgb(245, 218, 184);
+    background-color: antiquewhite; */
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border: 6px solid transparent;
+    border-image: linear-gradient(90deg, rgba(233,109,163,1) 0%, rgba(76,143,222,1) 100%);
+    border-image-slice: 1;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+.container-buttons button:hover {
+    opacity: .7;
+}
